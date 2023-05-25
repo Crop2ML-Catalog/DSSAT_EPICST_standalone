@@ -17,14 +17,15 @@ Project Organization
     │
     ├── doc/               <- Package documentation
     │
-    ├── test/             <- model tests for each language and platform
+    ├── test/              <- model tests for each language and platform
     │
-    ├── crop2ml/          <- model units and composite in crop2ml format.
+    ├── crop2ml/           <- model units and composite in crop2ml format.
     │      ├── xml files
     │      ├── Algo/
-    ├── original/ <- The initial implementation of the model component.
     │
-    ├── src/                <- Executable source in different language and platform
+    ├── original/          <- The initial implementation of the model component.
+    │
+    ├── src/               <- Executable source in different language and platform
     │   ├── pyx/
     │   ├── java/
     │   ├── py/
