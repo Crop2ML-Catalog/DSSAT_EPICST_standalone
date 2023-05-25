@@ -1,0 +1,1521 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:10 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineFortranCompiler.cmake:179 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (PROJECT)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: C:/MinGW/bin/gfortran.exe 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: C:/MinGW/bin/gfortran.exe -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+      Using built-in specs.
+      COLLECT_GCC=C:/MinGW/bin/gfortran.exe
+      COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+      Target: mingw32
+      Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+      Thread model: win32
+      gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+       c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cc3txrO2.f90 -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=i586 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude -o C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cc2wSWBV.s
+      GNU Fortran (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+      	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+      warning: MPC header version 1.0.2 differs from library version 1.0.3.
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+      ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+      ignoring nonexistent directory "/mingw/include"
+      ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+      ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+      ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+      ignoring nonexistent directory "/mingw/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude
+       c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+       c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+       c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
+      End of search list.
+      GNU Fortran2008 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+      	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+      warning: MPC header version 1.0.2 differs from library version 1.0.3.
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+       c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccXPeMZS.o C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cc2wSWBV.s
+      GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+      Reading specs from c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+      COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+      LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+       c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cc0WCYAS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccXPeMZS.o -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+      COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+      
+      The Fortran compiler identification is GNU, found in:
+        D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/3.26.3/CompilerIdFortran/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (PROJECT)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_524d4/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_524d4.dir/build.make CMakeFiles/cmTC_524d4.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd'
+        Building Fortran object CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj
+        /C/MinGW/bin/gfortran.exe   -v -c /D/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\gfortran.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/f951.exe D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -cpp=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccAalxMS.f90 -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj -version -fintrinsic-modules-path c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude -o C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccIHJkkB.s
+        GNU Fortran (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
+        End of search list.
+        GNU Fortran2008 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccIHJkkB.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586'
+        Linking Fortran executable cmTC_524d4.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_524d4.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_524d4.dir/objects.a @CMakeFiles/cmTC_524d4.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_524d4.dir/objects.a -Wl,--no-whole-archive -o cmTC_524d4.exe -Wl,--out-implib,libcmTC_524d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Driving: C:\\MinGW\\bin\\gfortran.exe -v -Wl,--whole-archive CMakeFiles/cmTC_524d4.dir/objects.a -Wl,--no-whole-archive -o cmTC_524d4.exe -Wl,--out-implib,libcmTC_524d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\gfortran.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        Reading specs from c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_524d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_524d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cclWoWlb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_524d4.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles/cmTC_524d4.dir/objects.a --no-whole-archive --out-implib libcmTC_524d4.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_524d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (PROJECT)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
+        end of search list found
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/finclude]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [C:/MinGW/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
+        implicit include dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0/finclude;C:/MinGW/lib/gcc/mingw32/6.3.0/include;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (PROJECT)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd]
+        ignore line: []
+        ignore line: [Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_524d4/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_524d4.dir/build.make CMakeFiles/cmTC_524d4.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeScratch/TryCompile-wxfxzd']
+        ignore line: [Building Fortran object CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj]
+        ignore line: [/C/MinGW/bin/gfortran.exe   -v -c /D/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gfortran.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/f951.exe D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -cpp=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccAalxMS.f90 -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ D:/MesProgrammes/CMake/share/cmake-3.26/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj -version -fintrinsic-modules-path c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude -o C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccIHJkkB.s]
+        ignore line: [GNU Fortran (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/finclude]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\ccIHJkkB.s]
+        ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_524d4.dir/CMakeFortranCompilerABI.F90.obj' '-mtune=generic' '-march=i586']
+        ignore line: [Linking Fortran executable cmTC_524d4.exe]
+        ignore line: [/D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_524d4.dir/objects.a]
+        ignore line: [/C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_524d4.dir/objects.a @CMakeFiles/cmTC_524d4.dir/objects1.rsp]
+        ignore line: [/C/MinGW/bin/gfortran.exe  -v -Wl --whole-archive CMakeFiles/cmTC_524d4.dir/objects.a -Wl --no-whole-archive -o cmTC_524d4.exe -Wl --out-implib libcmTC_524d4.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Driving: C:\\MinGW\\bin\\gfortran.exe -v -Wl --whole-archive CMakeFiles/cmTC_524d4.dir/objects.a -Wl --no-whole-archive -o cmTC_524d4.exe -Wl --out-implib libcmTC_524d4.dll.a -Wl --major-image-version 0 --minor-image-version 0 -l gfortran -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gfortran.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/mingw32/6.3.0/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_524d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_524d4.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cclWoWlb.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_524d4.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles/cmTC_524d4.dir/objects.a --no-whole-archive --out-implib libcmTC_524d4.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\MIDING~1\\AppData\\Local\\Temp\\cclWoWlb.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_524d4.exe] ==> ignore
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
+          arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_524d4.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_524d4.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> [C:/MinGW/lib/crt2.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0]
+        collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [C:/MinGW/lib]
+        implicit libs: [gfortran;mingw32;gcc_s;gcc;moldname;mingwex;quadmath;m;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [C:/MinGW/lib/crt2.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        implicit dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:59 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_42071/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_42071.dir/build.make CMakeFiles/cmTC_42071.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_42071.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_42071.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_42071.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_42071.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_42071.dir/objects.a @CMakeFiles/cmTC_42071.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe -Wl,--whole-archive CMakeFiles/cmTC_42071.dir/objects.a -Wl,--no-whole-archive -o cmTC_42071.exe -Wl,--out-implib,libcmTC_42071.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:65 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_254bf/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_254bf.dir/build.make CMakeFiles/cmTC_254bf.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_254bf.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments    -fbounds-check -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_254bf.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_254bf.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_254bf.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_254bf.dir/objects.a @CMakeFiles/cmTC_254bf.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments  -Wl,--whole-archive CMakeFiles/cmTC_254bf.dir/objects.a -Wl,--no-whole-archive -o cmTC_254bf.exe -Wl,--out-implib,libcmTC_254bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:71 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_19523/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_19523.dir/build.make CMakeFiles/cmTC_19523.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_19523.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check    -132 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_19523.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-132'; did you mean '-m32'?
+        make[1]: *** [CMakeFiles/cmTC_19523.dir/build.make:78: CMakeFiles/cmTC_19523.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_19523/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:71 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_a73d7/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_a73d7.dir/build.make CMakeFiles/cmTC_a73d7.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_a73d7.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check    -ffixed-line-length-none -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_a73d7.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_a73d7.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a73d7.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_a73d7.dir/objects.a @CMakeFiles/cmTC_a73d7.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check  -Wl,--whole-archive CMakeFiles/cmTC_a73d7.dir/objects.a -Wl,--no-whole-archive -o cmTC_a73d7.exe -Wl,--out-implib,libcmTC_a73d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:77 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_26341/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_26341.dir/build.make CMakeFiles/cmTC_26341.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_26341.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none    -ffree-line-length-none -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_26341.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_26341.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_26341.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_26341.dir/objects.a @CMakeFiles/cmTC_26341.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none  -Wl,--whole-archive CMakeFiles/cmTC_26341.dir/objects.a -Wl,--no-whole-archive -o cmTC_26341.exe -Wl,--out-implib,libcmTC_26341.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:82 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_cf4bb/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_cf4bb.dir/build.make CMakeFiles/cmTC_cf4bb.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_cf4bb.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none    -finit-character=32 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_cf4bb.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_cf4bb.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_cf4bb.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_cf4bb.dir/objects.a @CMakeFiles/cmTC_cf4bb.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none  -Wl,--whole-archive CMakeFiles/cmTC_cf4bb.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf4bb.exe -Wl,--out-implib,libcmTC_cf4bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:87 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_2e54b/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_2e54b.dir/build.make CMakeFiles/cmTC_2e54b.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_2e54b.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32    -noexternal -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_2e54b.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-noexternal'; did you mean '-Wextra'?
+        make[1]: *** [CMakeFiles/cmTC_2e54b.dir/build.make:78: CMakeFiles/cmTC_2e54b.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_2e54b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:94 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_8d5cf/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_8d5cf.dir/build.make CMakeFiles/cmTC_8d5cf.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_8d5cf.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32    /fpp -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_8d5cf.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/fpp: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_8d5cf.dir/build.make:78: CMakeFiles/cmTC_8d5cf.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_8d5cf/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:94 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_0c0f3/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_0c0f3.dir/build.make CMakeFiles/cmTC_0c0f3.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_0c0f3.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32    -fpp -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_0c0f3.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-fpp'; did you mean '-cpp'?
+        make[1]: *** [CMakeFiles/cmTC_0c0f3.dir/build.make:78: CMakeFiles/cmTC_0c0f3.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_0c0f3/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:94 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_f718c/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_f718c.dir/build.make CMakeFiles/cmTC_f718c.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_f718c.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32    -cpp -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_f718c.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_f718c.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_f718c.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_f718c.dir/objects.a @CMakeFiles/cmTC_f718c.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32  -Wl,--whole-archive CMakeFiles/cmTC_f718c.dir/objects.a -Wl,--no-whole-archive -o cmTC_f718c.exe -Wl,--out-implib,libcmTC_f718c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:101 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_e1d20/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_e1d20.dir/build.make CMakeFiles/cmTC_e1d20.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_e1d20.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    /libs:static -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_e1d20.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: /libs:static: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_e1d20.dir/build.make:78: CMakeFiles/cmTC_e1d20.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_e1d20/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:106 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_c48a9/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_c48a9.dir/build.make CMakeFiles/cmTC_c48a9.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_c48a9.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    /threads -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_c48a9.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/threads: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_c48a9.dir/build.make:78: CMakeFiles/cmTC_c48a9.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_c48a9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:106 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_35c8b/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_35c8b.dir/build.make CMakeFiles/cmTC_35c8b.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_35c8b.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    -threads -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_35c8b.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-threads'; did you mean '-mthreads'?
+        make[1]: *** [CMakeFiles/cmTC_35c8b.dir/build.make:78: CMakeFiles/cmTC_35c8b.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_35c8b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:111 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_c84c8/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_c84c8.dir/build.make CMakeFiles/cmTC_c84c8.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_c84c8.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    /fpe:0 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_c84c8.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: /fpe:0: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_c84c8.dir/build.make:78: CMakeFiles/cmTC_c84c8.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_c84c8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:111 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_53221/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_53221.dir/build.make CMakeFiles/cmTC_53221.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_53221.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    -fpe0 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_53221.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-fpe0'; did you mean '-fdec'?
+        make[1]: *** [CMakeFiles/cmTC_53221.dir/build.make:78: CMakeFiles/cmTC_53221.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_53221/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:111 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_43571/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_43571.dir/build.make CMakeFiles/cmTC_43571.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_43571.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp    -ffpe-trap=invalid,zero,overflow -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_43571.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_43571.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_43571.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_43571.dir/objects.a @CMakeFiles/cmTC_43571.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp  -Wl,--whole-archive CMakeFiles/cmTC_43571.dir/objects.a -Wl,--no-whole-archive -o cmTC_43571.exe -Wl,--out-implib,libcmTC_43571.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:118 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_b57b4/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_b57b4.dir/build.make CMakeFiles/cmTC_b57b4.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_b57b4.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -mmacosx-version-min=10.10.0 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_b57b4.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-mmacosx-version-min=10.10.0'
+        make[1]: *** [CMakeFiles/cmTC_b57b4.dir/build.make:78: CMakeFiles/cmTC_b57b4.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_b57b4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:134 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_f55c9/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_f55c9.dir/build.make CMakeFiles/cmTC_f55c9.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_f55c9.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /FORCE -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_f55c9.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/FORCE: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_f55c9.dir/build.make:78: CMakeFiles/cmTC_f55c9.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_f55c9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:134 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_b63ad/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_b63ad.dir/build.make CMakeFiles/cmTC_b63ad.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_b63ad.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -static -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_b63ad.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_b63ad.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_b63ad.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_b63ad.dir/objects.a @CMakeFiles/cmTC_b63ad.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow  -Wl,--whole-archive CMakeFiles/cmTC_b63ad.dir/objects.a -Wl,--no-whole-archive -o cmTC_b63ad.exe -Wl,--out-implib,libcmTC_b63ad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:138 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_37212/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_37212.dir/build.make CMakeFiles/cmTC_37212.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_37212.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -static-libgcc -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_37212.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_37212.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_37212.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_37212.dir/objects.a @CMakeFiles/cmTC_37212.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static  -Wl,--whole-archive CMakeFiles/cmTC_37212.dir/objects.a -Wl,--no-whole-archive -o cmTC_37212.exe -Wl,--out-implib,libcmTC_37212.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:141 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_6dc27/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_6dc27.dir/build.make CMakeFiles/cmTC_6dc27.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_6dc27.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -static-libgfortran -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_6dc27.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_6dc27.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_6dc27.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_6dc27.dir/objects.a @CMakeFiles/cmTC_6dc27.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc  -Wl,--whole-archive CMakeFiles/cmTC_6dc27.dir/objects.a -Wl,--no-whole-archive -o cmTC_6dc27.exe -Wl,--out-implib,libcmTC_6dc27.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:152 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_f7d23/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_f7d23.dir/build.make CMakeFiles/cmTC_f7d23.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_f7d23.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /Od -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_f7d23.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/Od: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_f7d23.dir/build.make:78: CMakeFiles/cmTC_f7d23.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_f7d23/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:152 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_9bf1e/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_9bf1e.dir/build.make CMakeFiles/cmTC_9bf1e.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_9bf1e.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -Og -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_9bf1e.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_9bf1e.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_9bf1e.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_9bf1e.dir/objects.a @CMakeFiles/cmTC_9bf1e.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_9bf1e.dir/objects.a -Wl,--no-whole-archive -o cmTC_9bf1e.exe -Wl,--out-implib,libcmTC_9bf1e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:159 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_e5e70/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_e5e70.dir/build.make CMakeFiles/cmTC_e5e70.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_e5e70.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /warn:all -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_e5e70.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: /warn:all: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_e5e70.dir/build.make:78: CMakeFiles/cmTC_e5e70.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_e5e70/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:159 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_4dc88/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_4dc88.dir/build.make CMakeFiles/cmTC_4dc88.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_4dc88.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -warn all -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_4dc88.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: all: No such file or directory
+        gfortran.exe: error: unrecognized command line option '-warn'; did you mean '--warn-'?
+        make[1]: *** [CMakeFiles/cmTC_4dc88.dir/build.make:78: CMakeFiles/cmTC_4dc88.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_4dc88/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:159 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_3fcb0/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_3fcb0.dir/build.make CMakeFiles/cmTC_3fcb0.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_3fcb0.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -Wall -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_3fcb0.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_3fcb0.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_3fcb0.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_3fcb0.dir/objects.a @CMakeFiles/cmTC_3fcb0.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_3fcb0.dir/objects.a -Wl,--no-whole-archive -o cmTC_3fcb0.exe -Wl,--out-implib,libcmTC_3fcb0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:167 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_56c43/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_56c43.dir/build.make CMakeFiles/cmTC_56c43.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_56c43.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /traceback -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_56c43.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/traceback: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_56c43.dir/build.make:78: CMakeFiles/cmTC_56c43.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_56c43/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:167 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_2629c/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_2629c.dir/build.make CMakeFiles/cmTC_2629c.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_2629c.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -traceback -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_2629c.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-traceback'
+        make[1]: *** [CMakeFiles/cmTC_2629c.dir/build.make:78: CMakeFiles/cmTC_2629c.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_2629c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:167 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_47d59/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_47d59.dir/build.make CMakeFiles/cmTC_47d59.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_47d59.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -fbacktrace -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_47d59.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_47d59.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_47d59.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_47d59.dir/objects.a @CMakeFiles/cmTC_47d59.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_47d59.dir/objects.a -Wl,--no-whole-archive -o cmTC_47d59.exe -Wl,--out-implib,libcmTC_47d59.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:175 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_d222c/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_d222c.dir/build.make CMakeFiles/cmTC_d222c.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_d222c.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /check:bounds -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_d222c.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: /check:bounds: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_d222c.dir/build.make:78: CMakeFiles/cmTC_d222c.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_d222c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:175 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_bb05f/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_bb05f.dir/build.make CMakeFiles/cmTC_bb05f.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_bb05f.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -check bounds -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_bb05f.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: bounds: No such file or directory
+        gfortran.exe: error: unrecognized command line option '-check'; did you mean '-fcheck='?
+        make[1]: *** [CMakeFiles/cmTC_bb05f.dir/build.make:78: CMakeFiles/cmTC_bb05f.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_bb05f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:175 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_bba8a/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_bba8a.dir/build.make CMakeFiles/cmTC_bba8a.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_bba8a.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -fcheck=bounds -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_bba8a.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_bba8a.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_bba8a.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_bba8a.dir/objects.a @CMakeFiles/cmTC_bba8a.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_bba8a.dir/objects.a -Wl,--no-whole-archive -o cmTC_bba8a.exe -Wl,--out-implib,libcmTC_bba8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:188 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_16c08/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_16c08.dir/build.make CMakeFiles/cmTC_16c08.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_16c08.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /O2 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_16c08.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/O2: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_16c08.dir/build.make:78: CMakeFiles/cmTC_16c08.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_16c08/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:188 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_225d3/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_225d3.dir/build.make CMakeFiles/cmTC_225d3.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_225d3.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -O2 -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_225d3.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_225d3.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_225d3.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_225d3.dir/objects.a @CMakeFiles/cmTC_225d3.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_225d3.dir/objects.a -Wl,--no-whole-archive -o cmTC_225d3.exe -Wl,--out-implib,libcmTC_225d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:200 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_ff4d1/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_ff4d1.dir/build.make CMakeFiles/cmTC_ff4d1.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_ff4d1.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /unroll -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_ff4d1.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/unroll: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_ff4d1.dir/build.make:78: CMakeFiles/cmTC_ff4d1.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_ff4d1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:200 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_b1903/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_b1903.dir/build.make CMakeFiles/cmTC_b1903.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_b1903.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -funroll-loops -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_b1903.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_b1903.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_b1903.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_b1903.dir/objects.a @CMakeFiles/cmTC_b1903.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_b1903.dir/objects.a -Wl,--no-whole-archive -o cmTC_b1903.exe -Wl,--out-implib,libcmTC_b1903.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:208 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_8da77/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_8da77.dir/build.make CMakeFiles/cmTC_8da77.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_8da77.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    /Qinline -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_8da77.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: C:/Program Files/Git/Qinline: No such file or directory
+        make[1]: *** [CMakeFiles/cmTC_8da77.dir/build.make:78: CMakeFiles/cmTC_8da77.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_8da77/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:208 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_71aa5/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_71aa5.dir/build.make CMakeFiles/cmTC_71aa5.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_71aa5.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -inline -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_71aa5.dir/testFortranFlags.f90.obj
+        gfortran.exe: error: unrecognized command line option '-inline'; did you mean '-Winline'?
+        make[1]: *** [CMakeFiles/cmTC_71aa5.dir/build.make:78: CMakeFiles/cmTC_71aa5.dir/testFortranFlags.f90.obj] Error 1
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_71aa5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/Modules/SetCompileFlag.cmake:83 (TRY_COMPILE)"
+      - "cmake/Modules/SetFortranFlags.cmake:208 (SET_COMPILE_FLAG)"
+      - "CMakeLists.txt:29 (INCLUDE)"
+    directories:
+      source: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: " -static -static-libgcc -static-libgfortran"
+      CMAKE_Fortran_FLAGS: " -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow"
+      CMAKE_MODULE_PATH: "D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/cmake/Modules/"
+    buildResult:
+      variable: "FLAG_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):D:/MesProgrammes/CMake/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_af517/fast && C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_af517.dir/build.make CMakeFiles/cmTC_af517.dir/build
+        make[1]: Entering directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        Building Fortran object CMakeFiles/cmTC_af517.dir/testFortranFlags.f90.obj
+        /C/MinGW/bin/gfortran.exe   -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow    -finline-functions -c /D/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp/testFortranFlags.f90 -o CMakeFiles/cmTC_af517.dir/testFortranFlags.f90.obj
+        f951.exe: Warning: '-fd-lines-as-comments' has no effect in free form
+        Linking Fortran executable cmTC_af517.exe
+        /D/MesProgrammes/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_af517.dir/objects.a
+        /C/MinGW/bin/ar.exe qc CMakeFiles/cmTC_af517.dir/objects.a @CMakeFiles/cmTC_af517.dir/objects1.rsp
+        /C/MinGW/bin/gfortran.exe  -fd-lines-as-comments -fbounds-check -ffixed-line-length-none -ffree-line-length-none -finit-character=32 -cpp -ffpe-trap=invalid,zero,overflow   -static -static-libgcc -static-libgfortran  -Wl,--whole-archive CMakeFiles/cmTC_af517.dir/objects.a -Wl,--no-whole-archive -o cmTC_af517.exe -Wl,--out-implib,libcmTC_af517.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        make[1]: Leaving directory 'D:/Docs/AMEI_Workshop/AMEI_10_14_2022/Models/DSSAT_EPICST_standalone/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
