@@ -2,9 +2,9 @@
 
 
 AgriculturalModelExchangeInitiative
-==============================
+===================================
 
-Model of Energy Balance of the crop growth simulation model SiriusQuality
+The DSSAT soil temperature component, originally based on the EPIC soil temperature model and further improved by the DSSAT community
 
 Project Organization
 --------------------
@@ -22,7 +22,7 @@ Project Organization
     ├── crop2ml/          <- model units and composite in crop2ml format.
     │      ├── xml files
     │      ├── Algo/
-    |
+    ├── original/ <- The initial implementation of the model component.
     │
     ├── src/                <- Executable source in different language and platform
     │   ├── pyx/
