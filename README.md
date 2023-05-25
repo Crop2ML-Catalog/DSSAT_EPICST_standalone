@@ -7,7 +7,7 @@ AgriculturalModelExchangeInitiative
 Model of Energy Balance of the crop growth simulation model SiriusQuality
 
 Project Organization
-------------
+--------------------
 
 ```
 
@@ -43,7 +43,7 @@ Project Organization
 
 Model visualization
 -------------------
-![](doc/images/energy_balance2.png)
+![](doc/images/STEMP_EPIC_.png)
 
 An example of transformation in OpenAlea
 ----------------------------------------
