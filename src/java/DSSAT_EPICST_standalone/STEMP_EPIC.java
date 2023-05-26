@@ -181,7 +181,7 @@ public class STEMP_EPIC
     { this.SW= _SW; } 
     
     public STEMP_EPIC() { }
-    public void  Calculate_stemp_epic(STEMP_EPIC_State s, STEMP_EPIC_State s1, STEMP_EPIC_Rate r, STEMP_EPIC_Auxiliary a,  STEMP_EPIC_Exogenous ex)
+    public void  Calculate_Model(STEMP_EPIC_State s, STEMP_EPIC_State s1, STEMP_EPIC_Rate r, STEMP_EPIC_Auxiliary a,  STEMP_EPIC_Exogenous ex)
     {
         //- Name: STEMP_EPIC -Version:  1.0, -Time step:  1
         //- Description:
