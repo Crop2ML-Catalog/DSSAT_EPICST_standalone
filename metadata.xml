@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Package PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/package.dtd">
 <!-- crop2mlversion : used to specify which version of crop2ml DTD models are conformed to-->
-<Package name="SQ.EnergyBalance" version="1.0" license="MIT" crop2mlVersion="1.0.0">
+<Package name="DSSAT_.STEMP_EPIC_" version="1.0" license="MIT" crop2mlVersion="1.0.0">
     <Authors>
-        <FirstAndLastName>Peter D. Jamieson, Glen S. Francis, Derick R. Wilson, Robert J. Martin</FirstAndLastName>
-        <Institution>New Zealand Institute for Crop and Food Research Ltd.,
-            New Zealand Institute for Crop and Food Research Ltd.,
-            New Zealand Institute for Crop and Food Research Ltd.,
-            New Zealand Institute for Crop and Food Research Ltd.
+        <FirstAndLastName>Kenneth N. Potter , Jimmy R. Williams </FirstAndLastName>
+        <Institution>USDA-ARS, USDA-ARS
         </Institution>
     </Authors>
     <Encoders>
@@ -17,9 +14,9 @@
     </Encoders>
     <Features>
         <TypeOfModel type="Modular"/>
-        <IsPartOfLargerModel YesOrNo="Yes" name = "Wheat SiriusQuality Model" />
+        <IsPartOfLargerModel YesOrNo="Yes" name = "DSSAT Model" />
         <ValidatedWithCropMStudio YesOrNo="Yes" />
-        <SourceRepository src="https://github.com/Crop2ML-Catalog/SQ_Energy_Balance" />
+        <SourceRepository src="https://github.com/Crop2ML-Catalog/DSSAT_EPICST_standalone" />
     </Features>
     <Doc>
         <file></file>
@@ -38,7 +35,6 @@
             <openalea />
             <bioma />
             <simplace/>
-            <record />
             <dssat />
             <stics />
             <sirius />            
